@@ -1,0 +1,10 @@
+.yarn
+.pnp*
+node_modules
+
+src/config.ts
+
+dist
+
+.vscode
+.idea

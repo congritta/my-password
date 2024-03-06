@@ -1,0 +1,42 @@
+{
+  "name": "my-password",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "mobx": "^6.12.0",
+    "mobx-react-lite": "^4.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "5.1.4",
+    "vite-plugin-pwa": "^0.19.2"
+  },
+  "packageManager": "yarn@4.1.0",
+  "description": "React project description",
+  "keywords": [
+    "react",
+    "project"
+  ],
+  "author": {
+    "name": "Alex Congritta",
+    "email": "congritta@gmail.com",
+    "url": "https://congritta.com"
+  },
+  "homepage": "https://congritta.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/congritta/congritta"
+  }
+}

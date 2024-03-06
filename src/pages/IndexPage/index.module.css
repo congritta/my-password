@@ -1,0 +1,108 @@
+.IndexPage {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  cursor: pointer;
+  transition: .21s;
+}
+
+.IndexPage:active {
+  transform: scale(0.9)
+}
+
+.contentsWrapper {
+  margin: auto;
+}
+
+.passwordWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 40px;
+}
+
+@media (max-width: 920px) {
+  .passwordWrapper {
+    gap: 0 20px;
+  }
+}
+
+.password {
+  font-size: 48pt;
+  font-weight: 500;
+  word-break: break-all;
+  line-height: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .password {
+    color: #fff;
+  }
+}
+
+@media (max-width: 920px) {
+  .password {
+    font-size: 24pt;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 480px) {
+  .password {
+    font-size: 16pt;
+  }
+}
+
+.copyButton {
+
+}
+
+.copyButton > svg {
+  width: 48pt;
+  fill: #b3b3b3;
+}
+
+@media (prefers-color-scheme: dark) {
+  .copyButton > svg {
+    fill: #B0BEC5
+  }
+}
+
+@media (max-width: 920px) {
+  .copyButton > svg {
+    width: 24pt;
+  }
+}
+
+.hint {
+  margin-top: 20px;
+  text-align: center;
+  color: #6e6e6e;
+  display: none;
+  touch-action: none;
+}
+
+@media (pointer: fine) {
+  .hint[class*="_desktop"] {
+    display: block;
+  }
+}
+
+@media (pointer: coarse) {
+  .hint[class*="_touch"] {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .hint {
+    color: #B0BEC5
+  }
+}
+
+@media (max-width: 920px) {
+  .hint {
+    font-size: 10pt;
+  }
+}

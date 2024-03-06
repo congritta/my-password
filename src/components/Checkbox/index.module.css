@@ -1,0 +1,22 @@
+.Checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0 7px;
+  cursor: pointer;
+}
+
+.Checkbox > svg {
+  width: 24px;
+  flex-shrink: 0;
+  transition: .21s;
+}
+
+.Checkbox > svg[class*="isActive"] {
+  fill: var(--accent-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  .Checkbox > svg:not([class*="isActive"]) {
+    fill: #fff
+  }
+}
